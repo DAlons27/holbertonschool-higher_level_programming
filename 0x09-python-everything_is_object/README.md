@@ -1,6 +1,6 @@
 # 0x09. Python - Everything is object
 <p align="center">
-  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg" width="1050" title="hover text">
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/252/r_208403_QPSN8.jpg" width="550" title="hover text">
 </p>
 
 ### Description
