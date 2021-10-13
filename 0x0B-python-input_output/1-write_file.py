@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-"""Module 1-number_of_lines.Counts number of lines in a file."""
+"""Module that contains a function that returns the number of lines"""
 
 
 def number_of_lines(filename=""):
-    """Counts lines in filename."""
-
-    count = 0
-
-    with open(filename) as f:
-        text = f.readlines()
-        for line in text:
-            count += 1
-
-    return count
+    """ Function that reads from a file and prints its number of lines """
+    n_lines = 0
+    with open(filename, 'r', encoding="utf-8") as f:
+        for line in f:
+            n_lines += 1
+    return n_lines
