@@ -2,7 +2,7 @@
 """Create class student"""
 
 
-class Student():
+class Student:
     """Student Class"""
 
     def __init__(self, first_name, last_name, age):
@@ -14,14 +14,11 @@ class Student():
 
     def to_json(self, attrs=None):
         """that retrieves a dictionary representation of a Student instance"""
-        return vars(self)
 
-        def to_json(self, attrs=None):
-        """that retrieves a dictionary representation of a Student instance"""
-        if attrs is None:
-                return self.__dict__
-                my_dict = {}
-            for attr in attrs:
-                if attr in self.__dict__.keys():
-                    my_dict[attr] = self.__dict__[attr]
+        my_dict = dict()
+        if type(attrs) is list and all(type(x) is str for x in attrs):
+            for x in attrs:
+                if x in self.__dict__:
+                    my_dict.update({x: self.__dict__[x]})
             return my_dict
+        return self.__dict__.copy()
