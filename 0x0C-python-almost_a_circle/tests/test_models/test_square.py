@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest square
+Unittest sqquare
 """
 
 import unittest

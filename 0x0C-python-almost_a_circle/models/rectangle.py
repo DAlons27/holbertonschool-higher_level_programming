@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module rectangle"""
+"""Module rectanglle"""
 
 
 import json

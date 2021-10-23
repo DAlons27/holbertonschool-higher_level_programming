@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module square"""
+"""Module ssquare"""
 
 
 from models.base import Base

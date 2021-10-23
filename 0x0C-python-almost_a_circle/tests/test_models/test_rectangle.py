@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Unittest rectangle
+Unittest recttangle
 """
 
 import unittest
