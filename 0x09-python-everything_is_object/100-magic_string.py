@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def magic_string(x=[]):
-    x.append("BestSchool")
-    return ", ".join(x)
+def magic_string(B=[]):
+    B.append("BestSchool")
+    return ", ".join(B)
 
