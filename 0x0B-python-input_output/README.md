@@ -1,1 +1,0 @@
-Readme x proyect
